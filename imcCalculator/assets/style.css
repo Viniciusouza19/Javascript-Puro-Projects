@@ -1,0 +1,117 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    position: relative;
+    max-width: 80%;
+    width: 400px;
+    max-height: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    
+}
+.container{
+    background-image: url('img/back.jpg');
+    z-index: 1000;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    
+}
+button{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: #black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.result h2,.result h2 span{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+}
+.input-group{
+    position: relative;
+    padding-top: 10px;
+    margin-top: 5%;
+    margin-bottom: 1% ;
+}
+.input-group input{
+    outline: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+.input-group input:focus{
+    border-bottom: 2px solid white;
+}
+.input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+
+    pointer-events: none;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: white;
+}
+.input-group input:focus + label{
+    margin-top: 0;
+    color: white;
+    font-size: 12px;
+}
+
+
+.active{
+    margin-top: 0 !important;
+    color: white !important;
+    font-size: 12px     !important;
+}
+#resultado{
+    display: flex;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}

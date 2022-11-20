@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 60%;
+    }
+    .direitosReservador{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+@media screen and (max-width: 425px){
+    .container{
+        max-width: 90%;
+
+    }
+    .direitosReservador{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
